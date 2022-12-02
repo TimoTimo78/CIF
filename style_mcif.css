@@ -1,16 +1,54 @@
-void functionA(String str)
-{
-    String result=new String();
+body{ 
+    width: 100%;
+}
+header{
+    width: auto;
+    height: 200pix;
+    background-color: aqua;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+.slide{
+    color: white;
+    display: flex;
+    background-color: #1F8B28;
+    position: relative;
+    width: 30%;
+    margin-top: 20px;
+    margin-right: 120px;
+} 
 
-    for (int i=0; i < str.Length; i++)
-    {
+.doc{
+    color: white;
+    display: flex;
+    background-color: #6d0fd2;
+    position: relative;
+    width: 80%;
+    /*margin-bottom: 20px;
+    margin-left: 120px;*/
+    margin-inline-end: auto;
+}
 
-        if ( !result.contains(str[i]))
-        
-        {
-            result+=str[i];
-        }
-    }
+section a{
+    color: rgb(15, 2, 2);
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 2% ;
+}
 
-    Console.WriteLine(result);
+.niger{
+    color: white;
+    display: flex;
+    position: relative;
+    background-color: #f8820c;
+    width: 35%;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 20px;
 }
