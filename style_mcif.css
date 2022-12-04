@@ -4,11 +4,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-box-sizing: border-box;
-    /*background-size: 1270px;
-    opacity: 0.8;
-    background: url(photos/pexels_pixabay.jpg);
-    margin: 30%;
-    width: 100%;*/
 }
 header{
     background-attachment:fixed;
