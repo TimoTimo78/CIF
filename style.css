@@ -1,7 +1,21 @@
-.logo {
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+h1 {
+    font-family:'La Belle Aurore', cursive;
+    src: url("https://fonts.google.com/share?selection.family=La%20Belle%20Aurore");
+
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');   
+h2 {
+    font-family:'La Belle Aurore', cursive;
+    src: url("https://fonts.google.com/share?selection.family=La%20Belle%20Aurore");
+}
+
+    
+}
+
+.title {
     display: flex;
-    height: 120px;
-    align-items: center;
+    height: 100px;
+    align-self: flex-start;
     justify-content: center;
     font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', fantasy;
     color: #faf8f9;
@@ -19,7 +33,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-box-sizing: border-box;
+    /* webkit-box-sizing: border-box; */
 }
 header{
     background-attachment:fixed;
@@ -32,14 +46,19 @@ header{
     /*background-color: aqua;*/
 }
 h1{
-    /*display: flex;*/
-    font-size: 50px;
-    font-variant-numeric: oldstyle-nums;
+    display: flex;
+    font-size: 70px;
+    
     justify-content: center;
-    text-shadow: 10px;
+    text-shadow: 50px;
 }
+h2
+{
+    font-family: la belle system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
 h3{
-    font-variant-numeric: oldstyle-nums;
+    
     justify-content: center
 }
 h4{
@@ -67,12 +86,13 @@ section a{
     border: 3px;*/
 }
 
-.slide{
-
-}
+/* .slide{}*/
 
 
-href{
+
+
+a
+{
     border-bottom-left-radius: 10px / 5px;
     color: white;
     /*background-color: #1F8B28;
