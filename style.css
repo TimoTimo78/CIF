@@ -1,14 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
-h1 {
+h1, h2 {
     font-family:'La Belle Aurore', cursive;
     src: url("https://fonts.google.com/share?selection.family=La%20Belle%20Aurore");
-
-@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');   
-h2 {
-    font-family:'La Belle Aurore', cursive;
-    src: url("https://fonts.google.com/share?selection.family=La%20Belle%20Aurore");
-}
-
     
 }
 
@@ -20,6 +13,9 @@ h2 {
     font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', fantasy;
     color: #faf8f9;
     text-shadow: #000 2px 2px 0.2rem;
+}
+.title2 {
+    font-family:"La Belle Aurore";
 }
 header > h1 {
         margin-bottom: 0px;
@@ -85,11 +81,6 @@ section a{
     padding-left: 2% ;
     border: 3px;*/
 }
-
-/* .slide{}*/
-
-
-
 
 a
 {
